@@ -18,8 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <title>Rextie</title>
-      <body className={inter.className}>
+      <body className={`${inter.className} w-auto h-auto border-solid`}>
       <Navbar />
           {children}
       <Footer />

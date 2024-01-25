@@ -11,6 +11,7 @@ import ToggleButton from '@/components/molecules/toogleButton/toggleButton'
 const CurrencyMate = () => {
   return (
         <div className='
+          lg:w-96
           box-border
           pt-1.5
           px-5 
