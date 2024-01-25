@@ -9,6 +9,8 @@ import Button from '@/components/atoms/button/button';
 import StatsSection from './sections/home/StatsSection';
 import AssociatedCompaniesCarousel from './sections/home/AssociatedCompaniesCarousel';
 import ClientTestimonials from './sections/home/ClientTestimonials';
+import MediaCoverageSection from './sections/home/MediaCoverageSection';
+import DownloadLinks from './sections/home/downloadLinks';
 
 const Home = () => {
   const [isMobile, setIsMobile] = useState<boolean>(false);
@@ -34,6 +36,8 @@ const Home = () => {
         <StatsSection isMobile = {isMobile}/>
         <AssociatedCompaniesCarousel isMobile = {isMobile}/>
         <ClientTestimonials isMobile = {isMobile}/>
+        <MediaCoverageSection />
+        <DownloadLinks />
       </div>
     )
   }
