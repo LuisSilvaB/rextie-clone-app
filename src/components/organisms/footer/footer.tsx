@@ -10,11 +10,7 @@ import Instagram from '@images/footer/instagram.svg'
 import RextieLogo from '@images/logo-rextie.svg'
 import Image from 'next/image';
 
-interface FooterProps{
-  isMobile: boolean
-}
-const Footer:React.FC<FooterProps> = (props) => {
-  const {isMobile} = props;
+const Footer = () => {
   const [isOpenSevices, setIsOpenSevices] = useState<boolean>(false);
   const [isOpenRecurses, setIsOpenRecurses] = useState<boolean>(false);
   const [isOpenSupport, setIsOpenSupport] = useState<boolean>(false);
